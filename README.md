@@ -1,0 +1,1 @@
+ openweathermap API Weather App project for Week 2 of Awesome Inc Bootcamp.
