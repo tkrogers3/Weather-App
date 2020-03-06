@@ -1,5 +1,5 @@
 //setting variables and their ID handlers
-var api = "http://api.openweathermap.org/data/2.5/weather?zip=";
+var api = "https://api.openweathermap.org/data/2.5/weather?zip=";
 var apiKey = ",&appid=85fbdf671b1a59edaae1f9e998fdcbad";
 var btn = document.getElementById("btnSearch");
 var cityName = document.getElementById("cityName");
@@ -44,7 +44,7 @@ function getWeather() {
 
             //Template Literal that concatenates the link with the icon to display image  into png.
 
-            iconImg.innerHTML = `<img src ="http://openweathermap.org/img/wn/${info.weather[0].icon}.png">`
+            iconImg.innerHTML = `<img src ="https://openweathermap.org/img/wn/${info.weather[0].icon}.png">`
             alert.className = "d-none alert-primary ";
             info.weather[0].icon;
             })
